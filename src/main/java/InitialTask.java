@@ -23,7 +23,15 @@ public class InitialTask {
         else if(title.equals("Australia")) {
             System.out.println("5 cities in " + title + " are\n Sydney, Melbourne, Brisbane, Perth, Adelaide");
         }
-
+        else if(title.equals("Canada")) {
+            System.out.println("5 cities in " + title + " are\n Alberta, British Columbia, Ontario, Quebec, Newfoundland");
+        }
+        else if(title.equals("Japan")) {
+            System.out.println("5 cities in " + title + " are\n Tokyo, Akita, Fukui, Hiroshima, Kode");
+        }
+        else if(title.equals("North Korea")) {
+            System.out.println("5 cities in " + title + " are\n Pyongyang, Huichon, Kaesong, Nampo, Rason");
+        }
 
     }
 }
